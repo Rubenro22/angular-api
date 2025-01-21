@@ -1,0 +1,10 @@
+<h2>API Rest - Consumo</h2>
+<a routerLink="practica">Práctica</a>
+<router-outlet></router-outlet><!--donde se carga el componente del routing-->
+<ul>
+  <li *ngFor="let post of post">
+
+<p>{{post.id}} - {{post.title}}</p>
+
+  </li>
+</ul>
